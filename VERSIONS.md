@@ -1,3 +1,6 @@
+# 0.1.20
+1. fix inner element must either be a resource reference or empty 
+
 # 0.1.19
 1. ijkplayer update to 0.8.8
 2. support right-to-left
