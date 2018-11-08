@@ -1,6 +1,6 @@
 apply plugin: 'com.android.library'
 def bType = "lazyLoad" //lazyLoad,full, blank is normal
-def version = "0.1.19"
+def version = "0.1.20"
 def ijkVersion = "0.8.8"
 
 android {
@@ -11,7 +11,7 @@ android {
         buildConfigField 'boolean', 'lazyLoad', "" + ("lazyLoad" == bType)
         minSdkVersion MINSDKVERSION
         targetSdkVersion TARGETSDKVERSION
-        versionCode 29
+        versionCode 30
         versionName version + (bType == "" ? "" : "-") + bType
     }
     buildTypes {
